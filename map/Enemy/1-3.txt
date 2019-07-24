@@ -1,0 +1,126 @@
+//====================================================================================
+//																					  
+//	敵ロード用テキスト[EnemyLoad000.txt]											  
+//	Author : Kodama Yuto(児玉 優斗)													  
+//	Editor :																		  
+//																					  
+//====================================================================================
+START_LOAD
+	// チックン
+	START_DATA
+		POS = 1275.0 127.5 1190.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 1275.0 127.5 1190.0
+		GOAL_POS = 1020.0 127.5 1190.0
+	END_DATA
+	
+	// チックン
+	START_DATA
+		POS = 1360.0 127.5 1190.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 1360.0 127.5 1190.0
+		GOAL_POS = 1530.0 127.5 1190.0
+	END_DATA
+	
+	// チックン
+	START_DATA
+		POS = 1870.0 127.5 1190.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 1870.0 127.5 1190.0
+		GOAL_POS = 1615.0 127.5 1190.0
+	END_DATA
+	
+	// 寝チックン
+	START_DATA
+		POS = 2380.0 42.5 765.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 2
+	END_DATA
+	
+	// 寝チックン
+	START_DATA
+		POS = 2125.0 212.5 935.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 2
+	END_DATA
+	
+	// ばねばな
+	START_DATA
+		POS = 2890.0 42.5 1105.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 0
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+	
+	// ばねばな
+	START_DATA
+		POS = 3230.0 42.5 1105.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 0
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+
+	// 罠ばな
+	START_DATA
+		POS = 3570.0 42.5 1105.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 3
+		TRAP_FLAG = 1
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+
+	// チックン
+	START_DATA
+		POS = 3995.0 0.0 765.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 3995.0 0.0 765.0
+		GOAL_POS = 4165.0 0.0 765.0
+	END_DATA
+
+	// 寝チックン
+	START_DATA
+		POS = 1955.0 0.0 510.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 2
+	END_DATA
+
+	// チックン
+	START_DATA
+		POS = 1955.0 0.0 170.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 1955.0 0.0 170.0a
+		GOAL_POS = 2380.0 0.0 170.0
+	END_DATA
+
+	// ばねばな
+	START_DATA
+		POS = 2465.0 42.5 340.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 0
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+END_LOAD

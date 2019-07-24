@@ -1,0 +1,29 @@
+–°‚èƒ`ƒbƒNƒ“
+	START_DATA
+		POS = 1105.0 0.0 340.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 2
+	END_DATA
+	
+‚Î‚Ë‚Î‚È
+	START_DATA
+		POS = 1530.0 0.0 340.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 0
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+	
+‚¤‚²‚­‚¿‚Á‚­‚ñ
+	START_DATA
+		POS = 5865.0 425.0 1105.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 5780.0 425.0 1105.0
+		GOAL_POS = 6035.0 425.0 1105.0
+	END_DATA
+	
