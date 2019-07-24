@@ -1,0 +1,119 @@
+//====================================================================================
+//																					  
+//	敵ロード用テキスト[EnemyLoad000.txt]											  
+//	Author : Kodama Yuto(児玉 優斗)													  
+//	Editor :																		  
+//																					  
+//====================================================================================
+START_LOAD
+	START_DATA
+		POS = 1105.0 0.0 340.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 2
+	END_DATA
+	START_DATA
+		POS = 1530.0 0.0 340.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 0
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+		START_DATA
+		POS = 1955.0 0.0 340.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 2
+	END_DATA
+	START_DATA
+		POS = 2720.0 212.5 255.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 3
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+	START_DATA
+		POS = 3910.0 170.0 170.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 3
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+
+	START_DATA
+		POS = 5100.0 170.0 1105.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 3
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 1
+	END_DATA
+	START_DATA
+		POS = 5270.0 170.0 1105.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 3
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 1
+	END_DATA
+	START_DATA
+		POS = 5440.0 170.0 1105.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 3
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+		START_DATA
+		POS = 5865.0 425.0 1105.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 5780.0 425.0 1105.0
+		GOAL_POS = 6035.0 425.0 1105.0
+	END_DATA
+	
+		START_DATA
+		POS = 5950.0 127.5 1020.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 3
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+	START_DATA
+		POS = 6630.0 127.5 1105.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 3
+		TRAP_FLAG = 1
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+	START_DATA
+		POS = 7650.0 425.0 1105.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 7565.0 425.0 1105.0
+		GOAL_POS = 7735.0 425.0 1105.0
+	END_DATA
+		START_DATA
+		POS = 7225.0 425.0 1105.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 7140.0 425.0 1105.0
+		GOAL_POS = 7310.0 425.0 1105.0
+	END_DATA
+END_LOAD
