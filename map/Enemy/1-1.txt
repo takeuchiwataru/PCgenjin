@@ -6,29 +6,17 @@
 //																					  
 //====================================================================================
 START_LOAD
+	// 寝チックン
 	START_DATA
 		POS = 1105.0 0.0 340.0
-		ROT = 0.00 1.57 0.00
+		ROT = 0.00 0.5 0.00
 		MOTION = 3
 		AI = 2
 	END_DATA
+	
+	// ばねばな
 	START_DATA
 		POS = 1530.0 0.0 340.0
-		ROT = 0.00 0.00 0.00
-		MOTION = 5
-		AI = 0
-		TRAP_FLAG = 0
-		JUMP_INTERVAL = 4
-		ITEM_STATE = 0
-	END_DATA
-		START_DATA
-		POS = 1955.0 0.0 340.0
-		ROT = 0.00 1.57 0.00
-		MOTION = 3
-		AI = 2
-	END_DATA
-	START_DATA
-		POS = 2720.0 212.5 255.0
 		ROT = 0.00 0.00 0.00
 		MOTION = 5
 		AI = 3
@@ -36,6 +24,45 @@ START_LOAD
 		JUMP_INTERVAL = 4
 		ITEM_STATE = 0
 	END_DATA
+	
+	// 寝チックン
+	START_DATA
+		POS = 1700.0 0.0 680.0
+		ROT = 0.00 -0.5 0.00
+		MOTION = 3
+		AI = 2
+	END_DATA
+
+	// チックン
+	START_DATA
+		POS = 1785.0 0.0 850.0
+		ROT = 0.00 1.57 0.00
+		MOTION = 3
+		AI = 1
+		START_POS = 1785.0 0.0 850.0
+		GOAL_POS = 2040.0 0.0 850.0
+	END_DATA
+
+	// 寝チックン
+	START_DATA
+		POS = 1955.0 0.0 340.0
+		ROT = 0.00 0.5 0.00
+		MOTION = 3
+		AI = 2
+	END_DATA
+
+	// ばねばな
+	START_DATA
+		POS = 2975.0 0.0 170.0
+		ROT = 0.00 0.00 0.00
+		MOTION = 5
+		AI = 3
+		TRAP_FLAG = 0
+		JUMP_INTERVAL = 4
+		ITEM_STATE = 0
+	END_DATA
+	
+	// ばねばな
 	START_DATA
 		POS = 3910.0 170.0 170.0
 		ROT = 0.00 0.00 0.00
@@ -46,6 +73,7 @@ START_LOAD
 		ITEM_STATE = 0
 	END_DATA
 
+	// ばねばな(オレンジ)
 	START_DATA
 		POS = 5100.0 170.0 1105.0
 		ROT = 0.00 0.00 0.00
@@ -55,6 +83,8 @@ START_LOAD
 		JUMP_INTERVAL = 4
 		ITEM_STATE = 1
 	END_DATA
+	
+	// ばねばな(オレンジ)
 	START_DATA
 		POS = 5270.0 170.0 1105.0
 		ROT = 0.00 0.00 0.00
@@ -64,6 +94,8 @@ START_LOAD
 		JUMP_INTERVAL = 4
 		ITEM_STATE = 1
 	END_DATA
+	
+	// ばねばな
 	START_DATA
 		POS = 5440.0 170.0 1105.0
 		ROT = 0.00 0.00 0.00
@@ -73,7 +105,9 @@ START_LOAD
 		JUMP_INTERVAL = 4
 		ITEM_STATE = 0
 	END_DATA
-		START_DATA
+	
+	// チックン
+	START_DATA
 		POS = 5865.0 425.0 1105.0
 		ROT = 0.00 1.57 0.00
 		MOTION = 3
@@ -82,8 +116,9 @@ START_LOAD
 		GOAL_POS = 6035.0 425.0 1105.0
 	END_DATA
 	
-		START_DATA
-		POS = 5950.0 127.5 1020.0
+	// ばねばな
+	START_DATA
+		POS = 6205.0 127.5 1105.0
 		ROT = 0.00 0.00 0.00
 		MOTION = 5
 		AI = 3
@@ -91,6 +126,8 @@ START_LOAD
 		JUMP_INTERVAL = 4
 		ITEM_STATE = 0
 	END_DATA
+	
+	// 罠ばな
 	START_DATA
 		POS = 6630.0 127.5 1105.0
 		ROT = 0.00 0.00 0.00
@@ -100,6 +137,8 @@ START_LOAD
 		JUMP_INTERVAL = 4
 		ITEM_STATE = 0
 	END_DATA
+	
+	// チックン
 	START_DATA
 		POS = 7650.0 425.0 1105.0
 		ROT = 0.00 1.57 0.00
@@ -108,7 +147,9 @@ START_LOAD
 		START_POS = 7565.0 425.0 1105.0
 		GOAL_POS = 7735.0 425.0 1105.0
 	END_DATA
-		START_DATA
+	
+	// チックン
+	START_DATA
 		POS = 7225.0 425.0 1105.0
 		ROT = 0.00 1.57 0.00
 		MOTION = 3
@@ -116,4 +157,5 @@ START_LOAD
 		START_POS = 7140.0 425.0 1105.0
 		GOAL_POS = 7310.0 425.0 1105.0
 	END_DATA
+	
 END_LOAD
