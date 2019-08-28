@@ -177,7 +177,7 @@ START_LOAD
 	// 寝チックン
 	START_DATA
 		POS = 5780.0 722.5 765.0
-		ROT = 0.00 1.57 0.00
+		ROT = 0.00 0.5 0.00
 		MOTION = 3
 		AI = 2
 	END_DATA
@@ -185,7 +185,7 @@ START_LOAD
 	// 寝チックン
 	START_DATA
 		POS = 5185.0 722.5 170.0
-		ROT = 0.00 -1.57 0.00
+		ROT = 0.00 -0.5 0.00
 		MOTION = 3
 		AI = 2
 	END_DATA
