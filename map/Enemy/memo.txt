@@ -1,29 +1,4 @@
-眠りチックン
-	START_DATA
-		POS = 1105.0 0.0 340.0
-		ROT = 0.00 1.57 0.00
-		MOTION = 3
-		AI = 2
-	END_DATA
-	
-ばねばな
-	START_DATA
-		POS = 1530.0 0.0 340.0
-		ROT = 0.00 0.00 0.00
-		MOTION = 5
-		AI = 0
-		TRAP_FLAG = 0
-		JUMP_INTERVAL = 4
-		ITEM_STATE = 0
-	END_DATA
-	
-うごくちっくん
-	START_DATA
-		POS = 5865.0 425.0 1105.0
-		ROT = 0.00 1.57 0.00
-		MOTION = 3
-		AI = 1
-		START_POS = 5780.0 425.0 1105.0
-		GOAL_POS = 6035.0 425.0 1105.0
-	END_DATA
-	
+0_黄色
+1_オレンジ(肉)
+7_オレンジ(種)
+8_ピンク(スコア)
