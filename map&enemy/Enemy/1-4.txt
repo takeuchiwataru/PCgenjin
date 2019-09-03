@@ -56,7 +56,7 @@ START_LOAD
 		GOAL_POS = 2805.0 637.5 85.0
 	END_DATA
 
-	// ‚Î‚Ë‚Î‚È
+	// ‚Î‚Ë‚Î‚È(ƒIƒŒƒ“ƒW)
 	START_DATA
 		POS = 2125.0 552.5 85.0
 		ROT = 0.00 0.00 0.00
@@ -64,7 +64,7 @@ START_LOAD
 		AI = 3
 		TRAP_FLAG = 0
 		JUMP_INTERVAL = 4
-		ITEM_STATE = 8
+		ITEM_STATE = 1
 	END_DATA
 
 	// ã©‚Î‚È
